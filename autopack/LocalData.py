@@ -1,8 +1,12 @@
 #pickle 序列化数据 本地存储
 class LocalData(object):
     def __init__(self):
+        #
         self.xcworkFile = ''
         self.exportDir = ''
+        self.confList = []
+        #plist 路径
+        self.exportOptions = ''
 
 '''
 # 将实例存储在变量中，当然也能存在文件中
